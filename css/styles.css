@@ -246,6 +246,11 @@ h3 {
     height: inherit;
 }
 
+.menu_quote{
+  background-color: red;
+  color: white;
+}
+
 .header2 ol {
     display: flex;
     height: inherit;
@@ -276,7 +281,7 @@ figure {
 
 .logo {
     height: 90px;
-    width: 20px;
+    width: 50px;
 }
 
 .footer2 {
@@ -350,9 +355,23 @@ figure {
         
       }
 
+      .get_quote {
+        color: red;
+        border: 1px solid;
+        padding: 5px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: #B4E41C;
+        /* margin-left: auto;
+       margin-right: auto; */
+       display: block;
+       text-align: center;
+              
+      }
+
       .contact {
-        background-color: #0C395A;
-        color: white;
+        background-color: #B4E41C;
+        color: #183278;
         height: 180px;
         display: flex;
         align-items: center;
